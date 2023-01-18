@@ -6,7 +6,7 @@ import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 import { Footer } from '../components'
 import react from 'react'
-import { ReCAPTCHA } from 'react-google-recaptcha';
+// import { ReCAPTCHA } from 'react-google-recaptcha';
 
 
 // const posts = [
