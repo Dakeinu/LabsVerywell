@@ -32,12 +32,12 @@ const Header = ({ post }) => {
     return (
         <div className="container mx-auto px-10 mb-8">
             <Head>
-                if ({post.title}) {
+                {/* if ({post.title}) {
                     <title>{post.title}</title>
-                }else{
+                }else{ */}
                     <title>Verywell Digital</title>
-                }
-                <meta name="description" content={post.content}></meta>
+                {/* }
+                <meta name="description" content={post.content}></meta> */}
                 <link rel="icon" href="/favicon.png" />
                 {/* <script>
     window.axeptioSettings = {
