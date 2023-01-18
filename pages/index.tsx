@@ -15,9 +15,9 @@ import react from 'react'
 
 // ]
 
-function onChange(value) {
-  console.log("Captcha value:", value);
-}
+// function onChange(value) {
+//   console.log("Captcha value:", value);
+// }
 
 
 
@@ -42,10 +42,10 @@ const Home: NextPage = ({ posts }) => {
           <Footer />
         </div> */}
 
-        <ReCAPTCHA
+        {/* <ReCAPTCHA
           sitekey="Your client site key"
           onChange={onChange}
-        />,
+        />, */}
 
       </div>
 
